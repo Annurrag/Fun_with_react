@@ -1,7 +1,8 @@
 
 // import Counter from './Counter';
 
-import Tailwind from "./Component/Tailwind"
+import BgChanger from "./Component/BgChanger"
+// import Tailwind from "./Component/Tailwind"
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
   return (
     <>
       {/* <Counter /> */}
-      <Tailwind name="Akansha"/>
-      <Tailwind name="Anushka"/>
+      {/* <Tailwind name="Akansha"/>
+      <Tailwind name="Anushka"/> */}
+      <BgChanger />
       
     </>
   )
